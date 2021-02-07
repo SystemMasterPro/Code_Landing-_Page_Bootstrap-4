@@ -1,0 +1,44 @@
+body, html{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+} 
+
+body{
+  background-image: linear-gradient(rgba(95, 114, 189,0.7), rgba(155,35,234,0.6)),url("../../img/fondo.jpg");
+  /* background-repeat: no-repeat; */
+  background-size:  cover;
+  background-position: center;
+}
+
+.logo{
+    width: 80px;
+    /* padding: 10px; */
+    margin-top: 24px;
+}
+.boton{
+    background: white;
+    color: black;
+    font-weight: bolder;
+}
+
+.texto{
+    color: white;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+}
+
+.form-control {
+    background: transparent !important;
+    color: #fff !important;
+}
+
+a .fab {
+    color: #ffc;
+    font-size: 30px;
+    margin: 0 10px;
+}
+
+a .fab:hover{
+    color: lightskyblue;
+}
